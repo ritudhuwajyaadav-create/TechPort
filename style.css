@@ -1,0 +1,301 @@
+ * {
+ 	margin: 0px;
+ 	padding: 0px;
+ 	box-sizing: border-box;
+ }
+
+ .navbar {
+ 	display: flex;
+ 	width: 80%;
+ 	padding: 0;
+ 	background: transparent;
+ 	margin: auto;
+ }
+
+ .menu {
+ 	display: flex;
+ 	position: fixed;
+ 	width: 80%;
+ 	height: 50px;
+ 	background: orange;
+ 	margin: auto;
+ 	overflow: hidden;
+ }
+
+ .menu ul {
+ 	width: 100%;
+	height : 50px;
+ 	display: flex;
+ 	list-style: none;
+	justify-content : space-evenly;
+ }
+
+ .menu ul li { 
+ 	line-height: 50px;
+ 	width: 218px;
+ 	text-align: center;
+ 	border: 1px solid white;
+	box-sizing : border-box;
+ }
+
+ .menu ul li a {
+ 	text-decoration: none;
+ 	font-size: 25px;
+ 	color: maroon;
+ 	text-shadow: 1px 1px 1px black;
+ 	display: block;
+ }
+
+ .menu ul li a:hover {
+ 	color: blue;
+ 	background-color: aqua;
+ }
+
+ #display { 
+ 	display: flex;
+ 	width: 80%;
+ 	height: 300px;
+ 	background: silver;
+ 	margin:auto;
+ 	overflow: hidden;
+ }
+
+ #content {
+ 	display: flex;
+ 	width: 50%;
+ 	height: 100%;
+ 	background: gray;
+ 	margin: auto;
+ 	align-items: center;
+ 	overflow: hidden;
+ }
+
+ .content {
+ 	color: orange;
+ 	padding-left: 30px;
+ 	line-height: 50px;
+ 	word-spacing: 10px;
+ 	font-family: Algerian;
+ 	text-shadow: 1px 2px 2px black;
+ }
+
+ #img {
+ 	width: 50%;
+ 	height: 100%;
+ 	background: gray;
+ 	margin: auto;
+ 	overflow: hidden;
+ }
+
+ .display-image {
+ 	width: 100%;
+ 	height: 100%;
+	box-sizing : border-box; 
+	object-fit : cover; 
+ }
+
+ .main {
+ 	display: flex;
+ 	width: 80%;
+ 	min-height: 700px;
+ 	max-height: auto;
+ 	background: #0000FF;
+ 	margin: auto;
+ }
+
+ #left-box {
+ 	width: 40%;
+ 	min-height: 550px;
+ 	max-height: none;
+ 	background: #000000;
+ 	margin: auto;
+ 	border-radius: 12px;
+ 	border-bottom: 5px solid orange;
+ 	overflow: hidden;
+ }
+
+ .right-box {
+ 	width: 45%;
+ 	height: 450px;
+ 	background: #000000;
+ 	margin: auto;	
+ 	border-radius: 50%;
+ }
+
+ .right-box img{ 
+ 	width: 100%;
+ 	height: 100%;
+ 	border-radius: 50%;
+	box-sizing : border-box;
+	object-fit : cover ;
+ }
+
+ .heading {
+ 	width: 50%;
+ 	height: 50px;
+ 	border: 3px solid orange;
+ 	margin: auto;
+ 	align-content: center;
+ 	margin-top: 5px;
+ 	border-radius: 50%;
+ 	background: white;
+ 	overflow: hidden;
+ }
+
+ .text {
+ 	color: orange;
+ 	font-family: Algerian;
+ 	text-align: center;
+ 	text-shadow: 1px 2px 2px black;
+ }
+
+ p {
+ 	color: white;
+ 	font-size: 23px;
+ 	margin-top: 20px;
+ 	justify-content: auto;
+ 	margin-left: 7px;
+ 	text-shadow: 1px 1px 2px blue;
+ }
+
+ .services {
+ 	width: 80%;
+ 	min-height: 300px;
+ 	margin: auto;
+ 	overflow: hidden;
+ }
+
+ #service {
+ 	display: flex;
+ 	width: 100%;
+ 	height: 300px;
+ 	border: 1px solid orange;
+ 	margin: auto;
+ 	background: orange;
+ 	overflow: hidden;
+ }
+
+ #website {
+ 	width: 30%;
+ 	height: 100%;
+ 	background: red;
+ 	box-shadow: 1px 1px 1px 1px gray;
+ 	overflow: hidden;
+ }
+
+ #website:hover {
+ 	transform: translateY(-5px);
+ 	transition: 0.4s;
+ }
+
+ #software {
+ 	width: 30%;
+ 	height: 100%;
+ 	background: red;
+ 	margin-left: auto;
+ 	box-shadow: 1px 1px 1px 1px gray;
+ 	overflow: hidden;
+ }
+
+ #software:hover {
+ 	transform: translateY(-5px);
+ 	transition: 0.4s;
+ }
+
+ #Application {
+ 	width: 30%;
+ 	height: 100%;
+ 	background: red;
+ 	margin-left: auto;
+ 	box-shadow: 1px 1px 1px 1px gray;
+ 	overflow: hidden;
+ }
+
+ #Application:hover {
+ 	transform: translateY(-5px);
+ 	transition: 0.4s;
+ }
+
+ .partners {
+ 	width: 80%;
+ 	min-height: 200px;
+ 	margin: auto;
+ 	overflow: hidden;
+ }
+
+ #partner {
+ 	display: flex;
+ 	width: 100%;
+ 	height: 200px;
+ 	margin: auto;
+ 	background: black;
+ 	overflow: hidden;
+ }
+
+ #org {
+ 	width: 23%;
+ 	height: 50%;
+ 	background: blue;
+ 	margin: auto;
+ 	align-content: center;
+ 	overflow: hidden;
+ }
+
+ #org:hover {
+ 	transform: translateY(-3px);
+ 	transition: 0.4s;
+ 	background-color: white;
+ }
+
+ .footer {
+ 	width: 80%;
+ 	min-height: 300px;
+ 	margin: auto;
+ 	overflow: hidden;
+ }
+
+ #contact {
+ 	display: flex;
+ 	width: 100%;
+ 	height: 300px;
+ 	margin: auto;
+ 	background: blue;
+ 	border-bottom: 10px solid black;
+ 	overflow: hidden;
+ }
+
+ .contact {
+ 	width: 60%;
+ 	height: 100%;
+ 	background: orange;
+ 	margin-right: auto;
+ 	overflow: hidden;
+ }
+
+ .image {
+ 	width: 40%;
+ 	height: 100%;
+ 	background: blue;
+ 	margin-left: auto;
+ }
+
+ .image img {
+ 	width: 100%;
+ 	height: 100%;
+	box-sizing : border-box;
+	object-fit : cover;
+ }
+
+ .contact h2{ 
+ 	color:#000000;
+ 	font-family: Arial,sans-serif;
+ 	text-shadow: 1px 2px 2px #ffffff;
+ }
+
+ @media (max-width:768px) {
+  .navbar { display: block; }
+  .menu { display: block; }
+  #display { display: flex; }
+  .main { display: flex; }
+  .footer { display: block; }
+} 
